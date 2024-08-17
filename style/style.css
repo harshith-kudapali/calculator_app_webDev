@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html { 
+    height: 100%; 
+    margin: auto; 
+    width: 960px; 
+  }
+
+#hedding {
+
+    margin-top: 0.5cm;
+    text-align: center;
+
+}
+
+body {
+    background-color: #0143a3;
+}
+
+.calculator {
+    width: 250px;
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #00c4ff;
+    border-radius: 7%;
+    padding: 20px;
+    background-color: #0e121e;
+    box-shadow: 0px 0px 50px 20px rgba(255, 255, 255, 0.5);
+   /* box-shadow: offset-x offset-y blur-radius spread-radius color;*/
+
+}
+
+.input_ {
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.input_ button {
+    padding: 5%;
+    margin: 1%;
+    border-radius: 50%;
+    border: 0;
+    height: 3rem;
+    width: 3rem;
+    background-color: #181c28;
+    color: #bec4d5;
+    box-shadow: 0px 0px 2px 0.00001px rgb(255, 255, 255);
+
+}
+
+#is_equle {
+    background-color: #0143a3;
+}
+
+input{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius:5%;
+    font-size:xx-large;
+    text-align: right;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    box-shadow: 0px 0px 2px 1px white;
+}
+button{
+    cursor:pointer;
+}
+#textBox{
+    background: #fff;
+    max-width: 65mm;
+    text-overflow: inherit;
+    height: 20mm;
+    font-size: x-large;
+    text-align: right;
+    
+}
